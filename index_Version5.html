@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J.O.K.E.S Business</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <!-- Logo is now a link to homepage -->
+            <a href="/" class="logo">J.O.K.E.S</a>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active translate" data-key="nav_home">Home</a></li>
+                    <li><a href="#about" class="translate" data-key="nav_about">About</a></li>
+                    <li><a href="#services" class="translate" data-key="nav_services">Services</a></li>
+                    <li><a href="#contact" class="translate" data-key="nav_contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="lang-switcher">
+                <button data-lang="en">EN</button>
+                <button data-lang="fr">FR</button>
+                <button data-lang="es">ES</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="home" class="section section-bg-home fade-in-section">
+            <h1 class="translate" data-key="home_title">Welcome to J.O.K.E.S</h1>
+            <p class="translate" data-key="home_desc">Your business, simplified. Professional solutions in monochrome style.</p>
+            <a href="#services" class="cta-btn translate" data-key="home_services_btn">Our Services</a>
+        </section>
+        <section id="about" class="section section-bg-about fade-in-section">
+            <h2 class="translate" data-key="about_title">About Us</h2>
+            <p class="translate" data-key="about_desc">
+                J.O.K.E.S delivers tailored solutions for modern businesses. 
+                Our approach is minimal, effective, and focused on results.
+            </p>
+        </section>
+        <section id="services" class="section section-bg-services fade-in-section">
+            <h2 class="translate" data-key="services_title">Our Services</h2>
+            <div class="services-list">
+                <div class="service-card">
+                    <h3 class="translate" data-key="services_consulting_title">Consulting</h3>
+                    <p class="translate" data-key="services_consulting_desc">Expert advice to streamline your business processes.</p>
+                </div>
+                <div class="service-card">
+                    <h3 class="translate" data-key="services_design_title">Design</h3>
+                    <p class="translate" data-key="services_design_desc">Sleek, modern designs that make your brand stand out.</p>
+                </div>
+                <div class="service-card">
+                    <h3 class="translate" data-key="services_development_title">Development</h3>
+                    <p class="translate" data-key="services_development_desc">Robust solutions, from websites to custom applications.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section section-bg-contact fade-in-section">
+            <h2 class="translate" data-key="contact_title">Contact Us</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required class="translate" data-key="contact_name_ph">
+                <input type="email" placeholder="Your Email" required class="translate" data-key="contact_email_ph">
+                <textarea placeholder="Your Message" rows="4" required class="translate" data-key="contact_message_ph"></textarea>
+                <button type="submit" class="translate" data-key="contact_send_btn">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            &copy; 2025 J.O.K.E.S. <span class="translate" data-key="footer_rights">All rights reserved.</span>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
